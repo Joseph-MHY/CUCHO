@@ -10,6 +10,6 @@ public class ClienteVO {
     
     private Integer cliente_id;
     private String nombre;
-    private String telefono;
     private String direccion;
+    private String telefono;
 }

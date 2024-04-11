@@ -1,5 +1,6 @@
 package JOSEPH.VO;
 
+import java.math.BigDecimal;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,5 +14,7 @@ public class EmpleadoVO {
     
     private Integer empleado_id;
     private String nombre;
-    private String puesto;
+    private String cargo;
+    private String telefono;
+    private BigDecimal salario;
 }
