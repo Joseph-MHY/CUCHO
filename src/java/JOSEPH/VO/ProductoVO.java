@@ -11,7 +11,7 @@ public class ProductoVO {
     
     private Integer producto_id;
     private String nombre;
+    private CategoriaVO categoria; 
     private BigDecimal precio;
     private Integer stock;
-    private CategoriaVO categoria; 
 }

@@ -12,7 +12,7 @@ public class VentaVO {
     
     private Integer venta_id;
     private ClienteVO cliente;
+    private EmpleadoVO empleado;
     private Date fecha_venta;
     private BigDecimal total;
-    private EmpleadoVO empleado;
 }
