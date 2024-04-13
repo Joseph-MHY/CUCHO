@@ -15,6 +15,8 @@ public class ApplicationConfig extends Application {
     
     private void addRestResourceClasses(Set<Class<?>> resources) {
         resources.add(JOSEPH.WS.CategoriaRest.class);
+        resources.add(JOSEPH.WS.ClienteRest.class);
+        resources.add(JOSEPH.WS.EmpleadoRest.class);
         resources.add(JOSEPH.WS.ProductoRest.class);
     }
     
