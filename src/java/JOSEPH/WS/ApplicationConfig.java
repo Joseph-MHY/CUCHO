@@ -18,6 +18,7 @@ public class ApplicationConfig extends Application {
         resources.add(JOSEPH.WS.ClienteRest.class);
         resources.add(JOSEPH.WS.EmpleadoRest.class);
         resources.add(JOSEPH.WS.ProductoRest.class);
+        resources.add(JOSEPH.WS.VentaRest.class);
     }
     
 }
