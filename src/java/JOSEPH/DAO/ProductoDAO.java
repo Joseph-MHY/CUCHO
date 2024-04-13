@@ -4,12 +4,10 @@ import JOSEPH.Dbase.ConexionDB;
 import JOSEPH.VO.ProductoVO;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 
 public class ProductoDAO {
     private Connection conn;
     private PreparedStatement ps;
-    private ResultSet rs;
 
     public ProductoDAO() {
     }
