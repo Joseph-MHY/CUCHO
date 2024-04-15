@@ -8,10 +8,6 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class DetallesVentaVO {
-    
-    private Integer detalle_id;
-    private VentaVO venta;
-    private ProductoVO producto;
-    private Integer cantidad;
-    private BigDecimal subtotal;
+    private int producto_id;
+    private int cantidad;
 }
